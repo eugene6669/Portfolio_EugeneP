@@ -120,6 +120,21 @@ export const siteContent = {
       githubUrl: "https://github.com/eugene6669/ZnE_Laundry",
       status: "development"
     },
+    {
+      id: "project-5",
+      title: "Portfolio Website",
+      description: "Modern, responsive portfolio website showcasing projects, skills, and professional experience with interactive UI and smooth animations",
+      stack: ["React", "TypeScript", "Vite", "TailwindCSS", "React Router"],
+      year: "2026",
+      images: [
+        "/projects/portfolio/Hero-Page.png",
+        "/projects/portfolio/Projects-Section.png",
+        "/projects/portfolio/About-Page.png"
+      ],
+      liveUrl: "",
+      githubUrl: "https://github.com/eugene6669/Portfolio_EugeneP",
+      status: "live"
+    },
   ],
 
   services: [
