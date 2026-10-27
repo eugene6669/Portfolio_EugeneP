@@ -1,4 +1,4 @@
-import { build } from 'vite';
+const { build } = require('vite');
 
 async function buildProject() {
   try {
