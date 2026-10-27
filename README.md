@@ -1,4 +1,4 @@
-# Eugene Patterson Portfolio
+# Eugene Pantua Portfolio
 
 A modern, minimalist single-page portfolio website showcasing design and development work. Built with a "Cool Minimal" aesthetic featuring soft depth, generous negative space, and a restrained aqua mint accent color.
 
