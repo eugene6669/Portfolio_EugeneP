@@ -1,0 +1,2 @@
+# This file forces Vercel to use pnpm instead of npm
+lockfileVersion: '9.0'

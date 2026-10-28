@@ -16,18 +16,18 @@ import { DiMsqlServer } from 'react-icons/di';
 import { VscAzure, VscCode } from 'react-icons/vsc';
 
 const iconMap: Record<string, JSX.Element> = {
-  javascript: <SiJavascript />,
-  react: <SiReact />,
-  nodejs: <SiNodedotjs />,
-  express: <SiExpress />,
-  mssql: <DiMsqlServer />,
-  mysql: <SiMysql />,
-  azure: <VscAzure />,
-  git: <SiGit />,
-  vscode: <VscCode />,
-  figma: <SiFigma />,
-  typescript: <SiTypescript />,
-  html: <SiHtml5 />,
+  javascript: <SiJavascript style={{ color: '#F7DF1E' }} />,
+  react: <SiReact style={{ color: '#61DAFB' }} />,
+  nodejs: <SiNodedotjs style={{ color: '#339933' }} />,
+  express: <SiExpress style={{ color: '#000000' }} />,
+  mssql: <DiMsqlServer style={{ color: '#CC2927' }} />,
+  mysql: <SiMysql style={{ color: '#4479A1' }} />,
+  azure: <VscAzure style={{ color: '#0078D4' }} />,
+  git: <SiGit style={{ color: '#F05032' }} />,
+  vscode: <VscCode style={{ color: '#007ACC' }} />,
+  figma: <SiFigma style={{ color: '#F24E1E' }} />,
+  typescript: <SiTypescript style={{ color: '#3178C6' }} />,
+  html: <SiHtml5 style={{ color: '#E34F26' }} />,
 };
 
 export function HomePage() {
@@ -60,7 +60,7 @@ export function HomePage() {
                 key={`${tool.name}-${index}`}
                 className="flex items-center gap-3 px-5 py-3 bg-surface-2 rounded-full whitespace-nowrap border border-hairline flex-shrink-0"
               >
-                <div className="w-6 h-6 text-ink">
+                <div className="w-6 h-6">
                   {iconMap[tool.icon as keyof typeof iconMap]}
                 </div>
                 <span className="text-sm font-medium">{tool.name}</span>
